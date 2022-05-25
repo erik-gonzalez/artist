@@ -36,3 +36,41 @@
     transform: rotate(360deg);
   }
 }
+
+.music {
+  display: flex;
+ flex-direction: column; 
+ height: 100vh;
+ padding: 2%;
+}
+
+.song {
+  flex-grow: 1;
+  margin-top: 2;
+  margin-bottom: 2;
+}
+
+.track {
+  display: flex;
+  margin: 2;
+  align-items: center;
+  cursor: pointer;
+}
+
+.pic {
+  height: 64px;
+  width: 64px;
+}
+
+.songTitle {
+  margin-left: 3;
+}
+
+.artistName {
+  color: rgb(128, 128, 128);
+}
+
+.lyrics {
+  text-align: center;
+  white-space: pre;
+}
